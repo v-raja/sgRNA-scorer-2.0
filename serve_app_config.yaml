@@ -1,0 +1,17 @@
+# This file was generated using the `serve build` command on Ray v2.5.1.
+
+import_path: serve_app:entry_point_for_this_gradio_app
+
+runtime_env:
+  working_dir: "https://github.com/v-raja/sgRNA-scorer-2.0/archive/HEAD.zip"
+
+host: 0.0.0.0
+
+port: 8000
+
+deployments:
+
+- name: GradioIngress
+  ray_actor_options:
+    num_cpus: 1.0
+    num_gpus: 0.0

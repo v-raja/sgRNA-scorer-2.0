@@ -1,0 +1,6 @@
+numpy
+biopython
+scikit-learn
+gradio
+ray[serve]
+pydevd-pycharm~=223.8617.48
