@@ -3,7 +3,7 @@
 import_path: serve_app:entry_point_for_this_gradio_app
 
 runtime_env:
-  working_dir: "https://github.com/v-raja/sgRNA-scorer-2.0/archive/HEAD.zip"
+  working_dir: "https://github.com/bioml-tasks/sgRNA-scorer-2.0/archive/2077f0.zip"
 
 host: 0.0.0.0
 
@@ -13,5 +13,5 @@ deployments:
 
 - name: GradioIngress
   ray_actor_options:
-    num_cpus: 1.0
+    num_cpus: 5.0
     num_gpus: 0.0
