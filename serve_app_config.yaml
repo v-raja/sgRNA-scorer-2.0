@@ -3,7 +3,7 @@
 import_path: serve_app:entry_point_for_this_gradio_app
 
 runtime_env:
-  working_dir: "https://github.com/v-raja/sgRNA-scorer-2.0/archive/2077f0.zip"
+  working_dir: "https://github.com/v-raja/sgRNA-scorer-2.0/archive/348839d.zip"
   pip:
   - gradio
   - numpy
