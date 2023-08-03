@@ -4,3 +4,4 @@ scikit-learn
 gradio
 ray[serve]
 pydevd-pycharm~=223.8617.48
+urllib3==1.23
