@@ -18,7 +18,12 @@ spec:
         route_prefix: /
         runtime_env:
           working_dir: "https://github.com/v-raja/sgRNA-scorer-2.0/archive/348839d.zip"
-          pip: "requirements.txt"
+            pip:
+            - gradio
+            - numpy
+            - biopython
+            - scikit-learn
+            - urllib3==1.23
         deployments:
           - name: GradioIngress
             num_replicas: 1
