@@ -5,7 +5,7 @@
 apiVersion: ray.io/v1alpha1
 kind: RayService
 metadata:
-  name: sgrna-scorer-2.0-16e7cf48-409e-455f-adad-38cb66563b8d
+  name: sgrna-scorer-2.0-16e7cf48
 spec:
   serviceUnhealthySecondThreshold: 300 # Config for the health check threshold for service. Default value is 60.
   deploymentUnhealthySecondThreshold: 300 # Config for the health check threshold for deployments. Default value is 60.
